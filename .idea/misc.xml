@@ -4,7 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Media/program/Android/CoolWeather/app/src/main/res/layout/activity_main.xml" value="0.24947916666666667" />
+        <entry key="..\:/Media/program/Android/CoolWeather/app/src/main/res/layout/choose_area.xml" value="0.2390625" />
         <entry key="..\:/Media/program/Android/CoolWeather/app/src/main/res/xml/litepal.xml" value="0.25364583333333335" />
+        <entry key="..\:/Media/program/Android/CoolWeather/app/src/main/res/xml/network_security_config.xml" value="0.1296875" />
       </map>
     </option>
   </component>

@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.coolweather.android">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:name="org.litepal.LitePalApplication"
         android:allowBackup="true"
@@ -11,12 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CoolWeather"
+        android:usesCleartextTraffic="true"
         tools:ignore="MissingClass">
-        <meta-data
-            android:name="com.google.android.actions">
-
-        </meta-data>
-
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -26,6 +24,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
